@@ -1,28 +1,29 @@
-# Employee Attrition Predictor
+# 🛡️ Employee Attrition Predictor
 
-This is a machine learning project that predicts if an employee will leave the company based on their data.
+## 📌 Overview
+This Machine Learning project predicts the likelihood of an employee leaving a company based on key factors like Monthly Income, Overtime, Age, and Years at the Company. It was built to help HR departments identify "at-risk" employees and intervene proactively.
 
-## Files Included in this Project:
-* **app.py**: The main application code.
-* **model.py**: The code used to train the machine learning model.
-* **attrition_model.pkl**: The finished, trained model.
-* **employee_data.csv**: The sample data used for this project.
+## 🚀 Features
+* **Data Generation:** Includes a custom script to generate realistic, balanced synthetic HR data.
+* **Predictive Modeling:** Uses a Random Forest Classifier to identify complex patterns leading to employee burnout or resignation.
+* **Interactive Dashboard:** A user-friendly Streamlit web application that provides real-time risk assessments.
 
-## Built With:
-* Python
-* Machine Learning
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Libraries:** Pandas, Scikit-Learn, Joblib, NumPy
+* **Frontend:** Streamlit
 
-## ⚙️ Requirements
-To run this project on your computer, you will need Python installed, along with the following libraries:
-* `pandas`
-* `scikit-learn`
-* `flask` (or `streamlit` - depending on what you used for the web app)
+## 📋 Prerequisites & Requirements
+To run this project, you will need **Python 3.8+** installed on your machine. 
 
-## 🚀 How to Run the App
-1. Download or clone this repository to your local machine.
-2. Open your terminal or command prompt and navigate to the project folder.
-3. Install the required libraries by running:
-   `pip install pandas scikit-learn`
-4. Run the main application code:
-   `python app.py`
+## 💻 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/Employee-Attrition-Predictor.git](https://github.com/YOUR_USERNAME/Employee-Attrition-Predictor.git)
+
+Navigate to the project folder and install the requirements: pip install -r requirements.txt
+
+Run the Streamlit app: streamlit run app.py
+
 ****
