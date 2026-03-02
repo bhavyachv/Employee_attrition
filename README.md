@@ -22,8 +22,8 @@ To run this project, you will need **Python 3.8+** installed on your machine.
    ```bash
    git clone [https://github.com/bhavyachv/Employee-Attrition-Predictor.git](https://github.com/YOUR_USERNAME/Employee-Attrition-Predictor.git)
 
-Navigate to the project folder and install the requirements: pip install -r requirements.txt
+Navigate to the project folder and install the requirements: 'pip install -r requirements.txt'
 
-Run the Streamlit app: streamlit run app.py
+Run the Streamlit app: 'streamlit run app.py'
 
 ****
